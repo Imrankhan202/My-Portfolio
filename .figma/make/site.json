@@ -1,0 +1,10 @@
+{
+  "description": "Create stunning online portfolios effortlessly, showcasing your work and skills to attract potential clients and employers.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
