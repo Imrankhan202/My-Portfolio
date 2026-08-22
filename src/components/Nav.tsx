@@ -88,7 +88,10 @@ export default function Nav({ page, navigate, scrollToSection }: NavProps) {
 
   {/* Resume pushed completely to the right */}
   <a
-    href="Imran_CV.pdf"
+    
+  href="/Imran_CV.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
     className="ml-auto font-mono text-[18px] tracking-[0.18em] uppercase border transition-all duration-200 px-3 py-1.5"
     style={{
       color: '#111111',
