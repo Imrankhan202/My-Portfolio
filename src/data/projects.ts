@@ -1,5 +1,8 @@
-import pricewiseImage from '../assets/projects/Pricewise.png'
-import hospitalImage from '../assets/projects/Home.png'
+import pricewiseImage from '../assets/projects/pricewise.png'
+import pricewiseHero from '../assets/projects/pricewise.png'
+
+import hospitalImage from '../assets/projects/hospital 2.png'
+import hospitalHero from '../assets/projects/Hospital.png'
 export interface Project {
   id: number
   number: string
@@ -33,7 +36,7 @@ export const projects: Project[] = [
     description: 'A price comparison platform designed to help users compare products across multiple e-commerce platforms in one unified interface.',
     tags: ['PRODUCT', 'WEB'],
     previewImage: pricewiseImage,
-    heroImage: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1400&h=700&fit=crop&auto=format',
+    heroImage: pricewiseHero,
     tools: ['Figma', 'React', 'Node.js', 'MongoDB', 'Express'],
     context: 'Online shopping forces users to manually open multiple tabs and compare prices across platforms. Decisions are slow, inconsistent, and often based on incomplete information.',
     problem: 'There was no unified, fast, and user-friendly tool for comparing product prices across major e-commerce platforms in Pakistan and beyond.',
@@ -53,7 +56,7 @@ export const projects: Project[] = [
     description: 'Modernizing healthcare access for a rural community in Pakistan through a patient-centered digital platform.',
     tags: ['PRODUCT', 'MOBILE', 'HEALTHCARE'],
     previewImage: hospitalImage,
-    heroImage: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=1400&h=700&fit=crop&auto=format',
+    heroImage: hospitalHero,
     tools: ['Figma', 'Canva', 'Framer'],
     context: 'Allah Nawaz Hospital serves a rural population with limited digital infrastructure. Patients traveled significant distances for appointments, lab results, or to ask basic questions about services.',
     problem: 'No digital presence meant the hospital was inaccessible outside physical walls. Staff spent disproportionate time on administrative coordination rather than patient care.',

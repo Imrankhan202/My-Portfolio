@@ -220,7 +220,7 @@ export default function ProjectPage({ id, navigate }: ProjectPageProps) {
         {/* Objective */}
         <div
           className="py-12 px-8 mb-12"
-          style={{ backgroundColor: '#111111', color: '#F3F0E9' }}
+          style={{ backgroundColor: '#8b0000', color: '#F3F0E9' }}
         >
           <span className="font-mono block mb-4" style={{ fontSize: '9px', letterSpacing: '0.28em', color: '#7A756D' }}>
             OBJECTIVE
@@ -287,7 +287,7 @@ export default function ProjectPage({ id, navigate }: ProjectPageProps) {
       {/* Next project */}
       <div
         className="mx-6 md:mx-10 mb-0 p-8 md:p-12 flex flex-col md:flex-row items-start md:items-end justify-between gap-6 border-t cursor-pointer group"
-        style={{ borderColor: 'rgba(17,17,17,0.12)', backgroundColor: '#111111' }}
+        style={{ borderColor: 'rgba(17,17,17,0.12)', backgroundColor: '#8b0000' }}
         onClick={() => navigate({ type: 'project', id: nextProject.id })}
         data-cursor="view"
         role="button"
@@ -296,7 +296,7 @@ export default function ProjectPage({ id, navigate }: ProjectPageProps) {
         aria-label={`Next project: ${nextProject.title}`}
       >
         <div>
-          <span className="font-mono block mb-3" style={{ fontSize: '9px', letterSpacing: '0.28em', color: '#7A756D' }}>
+          <span className="font-mono block mb-3" style={{ fontSize: '9px', letterSpacing: '0.28em', color: '#ffffff' }}>
             NEXT PROJECT
           </span>
           <h3
@@ -305,7 +305,7 @@ export default function ProjectPage({ id, navigate }: ProjectPageProps) {
           >
             {nextProject.title}
           </h3>
-          <span className="font-mono block mt-2" style={{ fontSize: '9px', letterSpacing: '0.18em', color: '#7A756D' }}>
+          <span className="font-mono block mt-2" style={{ fontSize: '9px', letterSpacing: '0.18em', color: '#ffffff' }}>
             {nextProject.category} — {nextProject.year}
           </span>
         </div>
